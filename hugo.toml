@@ -14,7 +14,7 @@ title = 'Blog & Guides'
     identifier = "posts"
     name = "Posts"
     title = "Posts"
-    url = "/post/"
+    url = "/posts/"
     weight = -100
 
 [params]      
