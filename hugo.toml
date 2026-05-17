@@ -22,7 +22,7 @@ title = 'Blog & Guides'
   header_subtitle = "Privacy Focused & Cybersecurity Enthusiast" 
   home_image = "/images/gizmodo.png"     
   recent_posts = 5                    
-  mainSections = ["posts", "post", "blog"]   
+  mainSections = ["posts", "blog"]   
   [params.style]                             
     backgroundColor = "#f8f9fa"
     homeImageBorderColor = "#ffffff"
