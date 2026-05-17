@@ -1,6 +1,6 @@
 +++
 date = '2026-05-16T17:59:32+01:00'
-draft = true
+draft = false
 title = 'How to Install Nvidia Drivers on Fedora Linux With Secureboot'
 +++
 
