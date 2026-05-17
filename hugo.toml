@@ -1,0 +1,33 @@
+theme = "devise"
+baseURL = 'https://0x01sky.github.io/'
+locale = 'en-us'
+title = 'Blog & Guides'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = -110
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/post/"
+    weight = -100
+
+[params]      
+  header_title = "0x01sky"                 
+  header_subtitle = "Privacy Focused & Cybersecurity Enthusiast" 
+  home_image = "/images/gizmodo.png"     
+  recent_posts = 5                    
+  mainSections = ["posts", "post", "blog"]   
+  [params.style]                             
+    backgroundColor = "#f8f9fa"
+    homeImageBorderColor = "#ffffff"
+    fontFamilyBase = "Helvetica Neue"        
+    fontColor = "#212529"
+  [[params.social]]
+    fa_icon = "fab fa-github fa-1x"
+    href = "http://github.com/0x01sky"
