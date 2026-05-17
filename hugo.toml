@@ -1,5 +1,5 @@
 theme = "devise"
-baseURL = 'https://0x01sky.github.io/'
+baseURL = 'http://0x01sky.github.io/'
 locale = 'en-us'
 title = 'Blog & Guides'
 
