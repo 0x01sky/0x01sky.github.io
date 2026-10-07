@@ -16,7 +16,7 @@ title = 'How to Install Nvidia Drivers on Fedora Linux With Secureboot'
  ```
 # Requirements
 - Fedora 40+
-- Secure boot must be enabled in setup mode in your BIOS/UEFI sttings (often called "Custom mode" in some BIOS versions) before proceeding !
+- Secure boot must be enabled in setup mode in your BIOS/UEFI settings (often called "Custom mode" in some BIOS versions) before proceeding !
 - You must remove any existing Nvidia drivers before proceeding by typing :
 
 ```bash
@@ -46,19 +46,19 @@ sudo dnf in https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$
 sudo dnf in https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 ```
-- Update the system :
+- Update the repositories :
 
 ```bash
 sudo dnf up --refresh
 
 ```
-- Install signing modules :
+- Install signing modules utilities :
 
 ```bash
 sudo dnf in kmodtool akmods mokutil openssl
 
 ```
-- Generate a key :
+- Generate the signing key :
 
 ```bash
 sudo kmodgenca -a 
