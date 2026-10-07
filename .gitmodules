@@ -3,4 +3,4 @@
 	url = https://github.com/adityatelange/hugo-PaperMod
 [submodule "themes/devise"]
 	path = themes/devise
-	url = https://github.com/austingebauer/devise
+	url = https://github.com/austingebauer/devise.git
