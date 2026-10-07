@@ -20,7 +20,7 @@ copyright = "&copy; Copyright 2026, 0x01sky"
 
 [params]      
   header_title = "0x01sky"                 
-  header_subtitle = "Privacy Focused & Cybersecurity Enthusiast" 
+  header_subtitle = "Privacy Focused Linux Enthusiast" 
   home_image = "/images/gizmodo.png"     
   recent_posts = 5                    
   mainSections = ["posts", "blog"]   
