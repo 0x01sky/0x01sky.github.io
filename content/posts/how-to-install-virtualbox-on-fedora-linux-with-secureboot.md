@@ -1,7 +1,7 @@
 +++
-date = '2026-10-06T19:44'
-draft = false
-title = 'How to Install Oracle Virtual Box on Fedora Linux with Secureboot'
+date = '2026-10-07T20:00:03Z'
+draft = true
+title = 'How to Install Virtualbox on Fedora Linux With Secureboot'
 +++
 
 In This guide, we would provide similar instructions provided for nvidia drivers, if you're someone struggling to get virtual box kernel modules to get signed , and looking for a geniune and "easy to follow" guide , this is the rightest place for you !
@@ -115,3 +115,4 @@ sudo modinfo -F version vboxdrv
 sudo modprobe vboxdrv vboxnetadp vboxnetflt
 
 ```
+
