@@ -21,7 +21,7 @@ title = 'Converting a Deb Pkg to an Rpm Package'
 
 - First, we gonna prepare the Debian deb package, to convert it to a rpm package , we will use alien :
 
-![Part1](static/images/deb-to-rpm-part1.png)
+![Part1](images/deb-to-rpm-part1.png)
 
 - recapitulating on what `alien -r -g -v obsidian-1.14.4_amd64.deb` - `-g` generates a temp directory to store the build
  - `-r` convert to rpm packages.
@@ -29,11 +29,11 @@ title = 'Converting a Deb Pkg to an Rpm Package'
 
 - Now, we can build the package using `rpmbuild` with the specified package .spec file, you may wait a few mins for the package to be built :
 
-![Part2](static/images/deb-to-rpm-part3.png)
+![Part2](images/deb-to-rpm-part3.png)
 
 - After the package build, you will have the rpm package :
 
-![Part4](static/images/deb-to-rpm-part4.png)
+![Part4](images/deb-to-rpm-part4.png)
 
 - want you wish to install it, you can simply use :
     - with rpm
