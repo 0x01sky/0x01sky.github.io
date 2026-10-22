@@ -21,7 +21,7 @@ sudo dnf in rpmdevtools alien -y
 
 - First, we gonna prepare the Debian deb package, to convert it to a rpm package , we will use alien :
 
-![Part1](images/deb-to-rpm-part-1.png)
+![Part1](/images/deb-to-rpm-part-1.png)
 
 - recapitulating on what `alien -r -g -v obsidian-1.14.4_amd64.deb` - `-g` generates a temp directory to store the build
  - `-r` convert to rpm packages.
@@ -29,11 +29,11 @@ sudo dnf in rpmdevtools alien -y
 
 - Now, we can build the package using `rpmbuild` with the specified package .spec file, you may wait a few mins for the package to be built :
 
-![Part2](images/deb-to-rpm-part-3.png)
+![Part2](/images/deb-to-rpm-part-3.png)
 
 - After the package build, you will have the rpm package :
 
-![Part4](images/deb-to-rpm-part-4.png)
+![Part4](/images/deb-to-rpm-part-4.png)
 
 - want you wish to install it, you can simply use :
     - with rpm
