@@ -15,7 +15,7 @@ title = 'Converting a Deb Pkg to an Rpm Package'
 * You can install it with:
 
 ```bash
-    sudo dnf in rpmdevtools alien -y
+sudo dnf in rpmdevtools alien -y
 ```
 # Getting Started
 
@@ -38,10 +38,10 @@ title = 'Converting a Deb Pkg to an Rpm Package'
 - want you wish to install it, you can simply use :
     - with rpm
     ```bash
-        sudo rpm -ivh <package.rpm>
+    sudo rpm -ivh <package.rpm>
     ``` 
     - with dnf
     ```bash
-        sudo dnf in <package.rpm>
+    sudo dnf in <package.rpm>
     ```
 **Best wishes !**
