@@ -1,7 +1,7 @@
 +++
 date = '2026-10-22T20:41:20Z'
 draft = false
-title = 'Converting a Deb Pkg to an Rpm Package'
+title = 'Converting a Deb Package to an Rpm Package'
 +++
 
 # Introduction
@@ -27,7 +27,11 @@ sudo dnf in rpmdevtools alien -y
  - `-r` convert to rpm packages.
  - `-v` for verbose output
 
-- Now, we can build the package using `rpmbuild` with the specified package .spec file, you may wait a few mins for the package to be built :
+- Now, we can build the package using `rpmbuild` with the specified package .spec file, you may wait a few mins for the package to be built, by running :
+
+```bash
+sudo rpmbuild --target=$(uname -m) --buildroot $PWD -bb <package_name.spec>
+```
 
 ![Part2](/images/deb-to-rpm-part-3.png)
 
@@ -35,7 +39,7 @@ sudo dnf in rpmdevtools alien -y
 
 ![Part4](/images/deb-to-rpm-part-4.png)
 
-- want you wish to install it, you can simply use :
+- if you wish to install it, you can simply use :
     - with rpm
     ```bash
     sudo rpm -ivh <package.rpm>
